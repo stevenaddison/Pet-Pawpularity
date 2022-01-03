@@ -36,7 +36,7 @@ Authors: Steven Addison, Angela Kim, Aisha Baitemirova-Othman
 
 
 ## <a id="Sources">Sources</a>
-![Kaggle Competition Dataset](https://www.kaggle.com/c/petfinder-pawpularity-score)
+- [Kaggle Competition Dataset](https://www.kaggle.com/c/petfinder-pawpularity-score)
 
 
 ## Repository Structure
