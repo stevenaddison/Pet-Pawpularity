@@ -19,7 +19,25 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 
 
 ## Modeling
+Some of the image augmentation techniques that we tried:
+Gray Scaling
+Gaussian Blurring
+Reflection/Flip (Horizontal and Vertical)
 
+The results of the model using gray scaled images:
+    grayscale Training Metrics:
+    Loss: 670.923
+    Root Mean Square Error: 25.902
+    Cross Validation Score: 
+    ------
+    grayscale Test Metrics:
+    Loss: 709.029
+    Root Mean Square Error: 26.628
+    
+    
+
+    
+    
 
 
 ## Visualizations
