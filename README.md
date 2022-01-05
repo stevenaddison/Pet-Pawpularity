@@ -47,46 +47,6 @@ Some of the image augmentation techniques that we tried:
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148286041-24ee3897-bde4-4e26-9abf-6a0f40da8b4b.png">
 
-    
-#### Grayscaled & Blurred Images:
-
-    Grayscaled & Blurred Training Metrics:
-    Loss: 494.477
-    RMSE: 22.237
-    Gross Validation Score: 
-    ------
-    Grayscaled & Blurred Test Metrics:
-    Loss: 533.591
-    RMSE: 23.1
-    
-<img width="1177" alt="Screen Shot 2022-01-05 at 14 40 37" src="https://user-images.githubusercontent.com/92397144/148286342-6e9784a3-5a68-41b6-9ccb-8128aca74a0a.png">
- 
-#### Grayscaled, Blurred, & Horizontally Flipped Images:
-
-    Graycaled, Blurred, & Horizontally Flipped Training Metrics:
-    Loss: 589.117
-    RMSE: 24.272
-    Cross Validation Score: 
-    ------
-    Grayscaled, Blurred, & Horizontally Flipped Test Metrics:
-    Loss: 630.435
-    RMSE: 25.108
-    
-<img width="1174" alt="Screen Shot 2022-01-05 at 14 48 30" src="https://user-images.githubusercontent.com/92397144/148287316-fd306aa0-21d8-4d4c-8351-831ded6e5386.png">
-
-#### Grayscaled, Blurred, & Vertically Flipped Images:
-
-    Grayscaled, Blurred, & Vertically Flipped Training Metrics:
-    Loss: 602.445
-    RMSE: 24.545
-    Cross Validation Score: 
-    ------
-    Grayscaled, Blurred, & Vertically Flipped Test Metrics:
-    Loss: 631.341
-    RMSE: 25.127
-    
-<img width="1166" alt="Screen Shot 2022-01-05 at 14 54 06" src="https://user-images.githubusercontent.com/92397144/148288088-ee6ee825-f9de-4e53-8614-64fb4d1178c3.png">
-
 
 #### ANN Model using RGB Images:
 
