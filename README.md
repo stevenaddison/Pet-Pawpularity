@@ -19,72 +19,64 @@ The data comes from thousands of pet profiles on [Petfinder.my](https://www.petf
 There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, `Action`, `Accessory`, `Group`, `Collage`, `Human`, `Occlusion`, `Info`, and `Blur` . The target variable is `Pawpularity` and ranges from 1-100. There are no null values and all features have a value of 0 (no) or 1 (yes).
 
 
-## Modeling
+## Modeling & Visualizations
 Some of the image augmentation techniques that we tried:
-Gray Scaling
-Gaussian Blurring
-Reflection/Flip (Horizontal and Vertical)
+- Grayscaling
+- Gaussian Blurring
+- Reflection/Flip (Horizontal and Vertical)
 
-The results of the model that uses gray scaled images:
-    grayscale Training Metrics:
+#### Grayscaled Images:
+
+    Grayscaled Training Metrics:
     Loss: 670.923
     Root Mean Square Error: 25.902
     Cross Validation Score: 
     ------
-    grayscale Test Metrics:
+    Grayscaled Test Metrics:
     Loss: 709.029
     Root Mean Square Error: 26.628
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148286041-24ee3897-bde4-4e26-9abf-6a0f40da8b4b.png">
 
     
+#### Grayscaled & Blurred Images:
 
-    
-The results of the model that uses gray scaled then blurred images:
-    gray scaled & blurred Training Metrics:
+    Grayscaled & Blurred Training Metrics:
     Loss: 494.477
-    Root Mean Square Error: 22.237
-    Cross Validation Score: 
+    RMSE: 22.237
+    Gross Validation Score: 
     ------
-    gray scaled & blurred Test Metrics:
+    Grayscaled & Blurred Test Metrics:
     Loss: 533.591
-    Root Mean Square Error: 23.1
+    RMSE: 23.1
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 40 37" src="https://user-images.githubusercontent.com/92397144/148286342-6e9784a3-5a68-41b6-9ccb-8128aca74a0a.png">
  
-The results of the model that uses gray scaled, blurred and flipped horizontally images:
+#### Grayscaled, Blurred, & Horizontally Flipped Images:
 
-  gray scaled, blurred & flipped horizontally Training Metrics:
+    Graycaled, Blurred, & Horizontally Flipped Training Metrics:
     Loss: 589.117
-    Root Mean Square Error: 24.272
+    RMSE: 24.272
     Cross Validation Score: 
     ------
-    gray scaled, blurred & flipped horizontally Test Metrics:
+    Grayscaled, Blurred, & Horizontally Flipped Test Metrics:
     Loss: 630.435
-    Root Mean Square Error: 25.108
+    RMSE: 25.108
     
 <img width="1174" alt="Screen Shot 2022-01-05 at 14 48 30" src="https://user-images.githubusercontent.com/92397144/148287316-fd306aa0-21d8-4d4c-8351-831ded6e5386.png">
 
-The results of the model that uses gray scaled, blurred and flipped vertically images:
+#### Grayscaled, Blurred, & Vertically Flipped Images:
 
- gray scaled, blurred & flipped vertically Training Metrics:
+    Grayscaled, Blurred, & Vertically Flipped Training Metrics:
     Loss: 602.445
-    Root Mean Square Error: 24.545
+    RMSE: 24.545
     Cross Validation Score: 
     ------
-    gray scaled, blurred & flipped vertically Test Metrics:
+    Grayscaled, Blurred, & Vertically Flipped Test Metrics:
     Loss: 631.341
-    Root Mean Square Error: 25.127
+    RMSE: 25.127
     
 <img width="1166" alt="Screen Shot 2022-01-05 at 14 54 06" src="https://user-images.githubusercontent.com/92397144/148288088-ee6ee825-f9de-4e53-8614-64fb4d1178c3.png">
-
-
-    
-    
-
-
-## Visualizations
-
 
 
 ## Conclusions & Recommendations
@@ -92,7 +84,7 @@ We found the `Pawpularity` score to be too vague to come to any strong conclusio
 
 
 ## Next Steps
-
+First, we would look into what goes into determining `Pawpularity`. Another thing we would like to look into would be features other than photos that affect pet profile traffic such as age of the animal and time they've been up for adoption.
 
 
 ## <a id="Sources">Sources</a>
