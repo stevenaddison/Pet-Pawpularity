@@ -36,13 +36,14 @@ Some of the image augmentation techniques that we tried:
 #### Grayscaled Images:
 
     Grayscaled Training Metrics:
-    Loss: 670.923
-    Root Mean Square Error: 25.902
+    Loss: 842.1859
+    Root Mean Square Error: 29.0204
     Cross Validation Score: 
     ------
     Grayscaled Test Metrics:
-    Loss: 709.029
-    Root Mean Square Error: 26.628
+    Loss: 7842.7947
+    Root Mean Square Error: 29.
+    
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148286041-24ee3897-bde4-4e26-9abf-6a0f40da8b4b.png">
 
