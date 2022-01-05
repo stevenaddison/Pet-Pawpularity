@@ -11,7 +11,7 @@ They say a picture is worth a thousand words. A picture can also save a life. Hu
 
 
 ## Data Understanding
-The data comes from thousands of pet profiles on [Petfinder.my](https://www.petfinder.my/).
+The data comes from thousands of pet profiles on [Petfinder.my](https://www.petfinder.my/). The `Pawpularity` score is derived from each pet profile's page view statistics at the listing pages, using an algorithm that normalizes the traffic data across different pages, platforms (web & mobile) and various metrics. Duplicate clicks, crawler bot accesses and sponsored profiles are excluded from the analysis. All the feature metadata is explained [here](https://github.com/stevenaddison/Project-4/blob/main/data/metadata.md).
 
 
 ## Data Preparation & Analysis
@@ -36,8 +36,8 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 
 ## <a id="Sources">Sources</a>
 - [Kaggle Competition Dataset](https://www.kaggle.com/c/petfinder-pawpularity-score)
-- [Photo Metadata]()
-- [source](https://www.tandfonline.com/doi/full/10.1080/10888705.2014.982796)
+- [Photo Metadata](https://github.com/stevenaddison/Project-4/blob/main/data/metadata.md)
+- [Speed of Dog Adoption: Impact of Online Photo Traits](https://www.tandfonline.com/doi/full/10.1080/10888705.2014.982796)
 
 
 ## Repository Structure
