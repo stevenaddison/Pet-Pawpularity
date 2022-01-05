@@ -1,3 +1,4 @@
+![kittens](https://github.com/stevenaddison/Project-4/blob/main/images/kittens.png?raw=true)
 # Petfinder Malaysia Pawpularity Contest
 Authors: Steven Addison, Angela Kim, Aisha Baitemirova-Othman
 
@@ -87,7 +88,7 @@ The results of the model that uses gray scaled, blurred and flipped vertically i
 
 
 ## Conclusions & Recommendations
-
+We found the `Pawpularity` score to be too vague to come to any strong conclusions. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We think understanding how `Pawpularity` is scored would help us prepare the data for better model results.
 
 
 ## Next Steps
