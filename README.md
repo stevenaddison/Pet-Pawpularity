@@ -43,13 +43,14 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 ## Repository Structure
 ```
 ├── [data]
-│    ├──
-│    ├── 
-│    ├── 
-│    ├── 
-│    ├── 
-│    └── 
+│    ├── [test]
+│    ├── [train]
+│    ├── metadata.md
+│    ├── sample_submission.csv
+│    ├── test.csv
+│    └── train.csv
 ├── [images]
+│    └── kittens.png
 ├── .gitignore
 ├── README.md
 ├── data_prep_notebook.ipynb
