@@ -24,7 +24,7 @@ Gray Scaling
 Gaussian Blurring
 Reflection/Flip (Horizontal and Vertical)
 
-The results of the model using gray scaled images:
+The results of the model that uses gray scaled images:
     grayscale Training Metrics:
     Loss: 670.923
     Root Mean Square Error: 25.902
@@ -33,6 +33,19 @@ The results of the model using gray scaled images:
     grayscale Test Metrics:
     Loss: 709.029
     Root Mean Square Error: 26.628
+    
+    <img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148285778-dc0d0216-e0a7-4642-acbf-3f4cad9176d7.png">
+
+    
+The results of the model that uses gray scaled then blurred images:
+    gray scaled & blurred Training Metrics:
+    Loss: 494.477
+    Root Mean Square Error: 22.237
+    Cross Validation Score: 
+    ------
+    gray scaled & blurred Test Metrics:
+    Loss: 533.591
+    Root Mean Square Error: 23.1
     
     
 
