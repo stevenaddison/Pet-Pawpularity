@@ -20,6 +20,14 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 
 
 ## Modeling & Visualizations
+
+#### Baseline Model:
+
+    Root Mean Square Error: 21.074920522735773
+    
+<img width="1089" alt="Screen Shot 2022-01-05 at 15 55 50" src="https://user-images.githubusercontent.com/92397144/148295322-582f3bdd-7f85-4721-a7d8-d97e3bc0daab.png">
+ 
+   
 Some of the image augmentation techniques that we tried:
 - Grayscaling
 - Gaussian Blurring
