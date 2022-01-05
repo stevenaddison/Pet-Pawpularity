@@ -73,11 +73,12 @@ Some of the image augmentation techniques that we tried:
 <img width="1087" alt="Screen Shot 2022-01-05 at 15 51 24" src="https://user-images.githubusercontent.com/92397144/148294889-fc018871-5e01-4d72-896f-a2da4ccd0cd0.png">
 
 ## Conclusions & Recommendations
-We found the `Pawpularity` score to be too vague to come to any strong conclusions. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We think understanding how `Pawpularity` is scored would help us prepare the data for better model results.
+We attempted Data Augmentation but found that Grayscaling, Blurring, and Flipping the images did not improve our RMSE.
+One big concern for us was that how `Pawpularity` was determined was unclear. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We know the scale is from 1-100 but do all the images with a score of 100 have the same amount of traffic? We think understanding how `Pawpularity` is scored would help us prepare the data for better model results.
 
 
 ## Next Steps
-First, we would look into what goes into determining `Pawpularity`. Another thing we would like to look into would be features other than photos that affect pet profile traffic such as age of the animal and time they've been up for adoption.
+First, we would look into what goes into determining `Pawpularity`. Another thing we would like to look into would be features other than photos that affect pet profile traffic such as age of the animal and time they've been up for adoption. Lastly, our knowledge of neural networks is limited, and so, given more time, we would have liked to explore further.
 
 
 ## <a id="Sources">Sources</a>
