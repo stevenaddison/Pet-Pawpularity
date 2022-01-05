@@ -51,6 +51,20 @@ The results of the model that uses gray scaled then blurred images:
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 40 37" src="https://user-images.githubusercontent.com/92397144/148286342-6e9784a3-5a68-41b6-9ccb-8128aca74a0a.png">
  
+The results of the model that uses gray scaled, blurred and flipped horizontally images:
+
+  gray scaled, blurred & flipped horizontally Training Metrics:
+    Loss: 589.117
+    Root Mean Square Error: 24.272
+    Cross Validation Score: 
+    ------
+    gray scaled, blurred & flipped horizontally Test Metrics:
+    Loss: 630.435
+    Root Mean Square Error: 25.108
+    
+<img width="1174" alt="Screen Shot 2022-01-05 at 14 48 30" src="https://user-images.githubusercontent.com/92397144/148287316-fd306aa0-21d8-4d4c-8351-831ded6e5386.png">
+
+
 
     
     
