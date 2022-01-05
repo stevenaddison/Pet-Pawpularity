@@ -35,6 +35,7 @@ The results of the model that uses gray scaled images:
     Root Mean Square Error: 26.628
     
 <img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148286041-24ee3897-bde4-4e26-9abf-6a0f40da8b4b.png">
+
     
 
     
@@ -48,7 +49,8 @@ The results of the model that uses gray scaled then blurred images:
     Loss: 533.591
     Root Mean Square Error: 23.1
     
-    
+<img width="1177" alt="Screen Shot 2022-01-05 at 14 40 37" src="https://user-images.githubusercontent.com/92397144/148286342-6e9784a3-5a68-41b6-9ccb-8128aca74a0a.png">
+ 
 
     
     
