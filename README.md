@@ -79,6 +79,20 @@ Some of the image augmentation techniques that we tried:
 <img width="1166" alt="Screen Shot 2022-01-05 at 14 54 06" src="https://user-images.githubusercontent.com/92397144/148288088-ee6ee825-f9de-4e53-8614-64fb4d1178c3.png">
 
 
+#### Models using RGB Images:
+
+    Fifth ANN Training Metrics:
+    Loss: 418.549
+    Root Mean Square Error: 20.458
+    ------
+    Fifth ANN Test Metrics:
+    Loss: 453.289
+    Root Mean Square Error: 21.291
+    
+<img width="1091" alt="Screen Shot 2022-01-05 at 15 48 11" src="https://user-images.githubusercontent.com/92397144/148294474-37fa946d-af60-4bbc-94df-a14f6f636866.png">
+
+
+
 ## Conclusions & Recommendations
 We found the `Pawpularity` score to be too vague to come to any strong conclusions. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We think understanding how `Pawpularity` is scored would help us prepare the data for better model results.
 
