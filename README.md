@@ -1,31 +1,21 @@
-# Petfinder Pawpularity Contest
+# Petfinder Malaysia Pawpularity Contest
 Authors: Steven Addison, Angela Kim, Aisha Baitemirova-Othman
 
 
-
 ## Overview
-
+[Petfinder.my](https://www.petfinder.my/) is Malaysia’s leading animal welfare platform, featuring over 200,000 animals with more than 56,000 happily adopted. This project analyzes photos of adoptable pets from Malaysian animal shelters found on Petfinder and designs a Deep Learning model to predict the "Pawpularity" of pet photos.
 
 
 ## Business Problem
-A picture is worth a thousand words. But did you know a picture can save a thousand lives? Millions of stray animals suffer on the streets or are euthanized in shelters every day around the world. You might expect pets with attractive photos to generate more interest and be adopted faster. But what makes a good picture? With the help of data science, you may be able to accurately determine a pet photo’s appeal and even suggest improvements to give these rescue animals a higher chance of loving homes.
-
-PetFinder.my is Malaysia’s leading animal welfare platform, featuring over 180,000 animals with 54,000 happily adopted. PetFinder collaborates closely with animal lovers, media, corporations, and global organizations to improve animal welfare.
-
-Currently, PetFinder.my uses a basic Cuteness Meter to rank pet photos. It analyzes picture composition and other factors compared to the performance of thousands of pet profiles. While this basic tool is helpful, it's still in an experimental stage and the algorithm could be improved.
-
-In this competition, you’ll analyze raw images and metadata to predict the “Pawpularity” of pet photos. You'll train and test your model on PetFinder.my's thousands of pet profiles. Winning versions will offer accurate recommendations that will improve animal welfare.
-
-If successful, your solution will be adapted into AI tools that will guide shelters and rescuers around the world to improve the appeal of their pet profiles, automatically enhancing photo quality and recommending composition improvements. As a result, stray dogs and cats can find their "furever" homes much faster. With a little assistance from the Kaggle community, many precious lives could be saved and more happy families created.
-
+They say a picture is worth a thousand words. A picture can also save a life. Hundreds of millions of stray cats and dogs suffer on the streets, live miserably in crowded shelters, or are euthanized around the world. Companion animals with attractive and high quality photos are more likely to be adopted and more likely to be adopted faster [source](https://www.tandfonline.com/doi/full/10.1080/10888705.2014.982796). We want to answer the question: what makes a good picture? After analyzing raw images and metadata to predict the “Pawpularity” of pet photos, we train and test our model on PetFinder.my's thousands of pet profiles to come up with the best recommendations on photo composition. We hope our model will help stray cats and dogs find their "furever" home faster.
 
 
 ## Data Understanding
-
+The data comes from thousands of pet profiles on [Petfinder.my](https://www.petfinder.my/).
 
 
 ## Data Preparation & Analysis
-
+There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, `Action`, `Accessory`, `Group`, `Collage`, `Human`, `Occlusion`, `Info`, and `Blur` . The target variable is `Pawpularity` and ranges from 1-100. There are no null values and all features have a value of 0 (no) or 1 (yes).
 
 
 ## Modeling
@@ -36,7 +26,7 @@ If successful, your solution will be adapted into AI tools that will guide shelt
 
 
 
-## Conclusions
+## Conclusions & Recommendations
 
 
 
@@ -46,6 +36,8 @@ If successful, your solution will be adapted into AI tools that will guide shelt
 
 ## <a id="Sources">Sources</a>
 - [Kaggle Competition Dataset](https://www.kaggle.com/c/petfinder-pawpularity-score)
+- [Photo Metadata]()
+- [source](https://www.tandfonline.com/doi/full/10.1080/10888705.2014.982796)
 
 
 ## Repository Structure
