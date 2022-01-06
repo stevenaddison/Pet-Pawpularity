@@ -18,6 +18,9 @@ The data comes from thousands of pet profiles on [Petfinder.my](https://www.petf
 ## Data Preparation & Analysis
 There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, `Action`, `Accessory`, `Group`, `Collage`, `Human`, `Occlusion`, `Info`, and `Blur` . The target variable is `Pawpularity` and ranges from 1-100. There are no null values and all features have a value of 0 (no) or 1 (yes).
 
+<img width="402" alt="Screen Shot 2022-01-05 at 21 12 43" src="https://user-images.githubusercontent.com/92397144/148322492-bc6252ac-80e5-4b51-a562-790accc1042e.png">
+
+
 
 ## Modeling & Visualizations
 
