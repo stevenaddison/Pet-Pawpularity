@@ -26,26 +26,26 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 
 #### Baseline Model:
 
-    Root Mean Square Error: 21.074920522735773
+    RMSE: 21.074920522735773
     
 <img width="1089" alt="Screen Shot 2022-01-05 at 15 55 50" src="https://user-images.githubusercontent.com/92397144/148295322-582f3bdd-7f85-4721-a7d8-d97e3bc0daab.png">
  
    
 Some of the image augmentation techniques that we tried:
-- Grayscaling
 - Gaussian Blurring
 - Reflection/Flip (Horizontal and Vertical)
+
 
 #### ANN Model using Blurred Images:
 
     Blurred ANN Training Metrics:
     Loss: 481.546
-    Root Mean Square Error: 21.944
+    RMSE: 21.944
     Cross Validation Score: 
     ------
     Blurred ANN Test Metrics:
     Loss: 505.014
-    Root Mean Square Error: 22.473
+    RMSE: 22.473
     
 <img width="1095" alt="Screen Shot 2022-01-05 at 20 19 27" src="https://user-images.githubusercontent.com/92397144/148317759-4f7a6452-d9f9-4e56-8ee7-65f81bb90482.png">
 
@@ -54,11 +54,11 @@ Some of the image augmentation techniques that we tried:
 
     Fifth ANN Training Metrics:
     Loss: 418.549
-    Root Mean Square Error: 20.458
+    RMSE: 20.458
     ------
     Fifth ANN Test Metrics:
     Loss: 453.289
-    Root Mean Square Error: 21.291
+    RMSE: 21.291
     
 <img width="1091" alt="Screen Shot 2022-01-05 at 15 48 11" src="https://user-images.githubusercontent.com/92397144/148294474-37fa946d-af60-4bbc-94df-a14f6f636866.png">
 
@@ -66,17 +66,21 @@ Some of the image augmentation techniques that we tried:
 
     CNN Training Metrics:
     Loss: 417.331
-    Root Mean Square Error: 20.429
+    RMSE: 20.429
     ------
     CNN Test Metrics:
     Loss: 443.863
-    Root Mean Square Error: 21.068
+    RMSE: 21.068
     
 <img width="1087" alt="Screen Shot 2022-01-05 at 15 51 24" src="https://user-images.githubusercontent.com/92397144/148294889-fc018871-5e01-4d72-896f-a2da4ccd0cd0.png">
 
+
 ## Conclusions & Recommendations
-We attempted Data Augmentation but found that Grayscaling, Blurring, and Flipping the images did not improve our RMSE.
-One big concern for us was that how `Pawpularity` was determined was unclear. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We know the scale is from 1-100 but do all the images with a score of 100 have the same amount of traffic? We think understanding how `Pawpularity` is scored would help us prepare the data for better model results.
+We attempted Data Augmentation but found that Blurring and Flipping the images did not improve our RMSE.
+
+One big concern for us was that how Pawpularity was determined was unclear. There wasn't much information on the Kaggle competition description that explained how the score was created and how to interpret it. We know the scale is from 1-100, but do all the images with a score of 100 have the same amount of traffic? We think understanding how Pawpularity is scored would help us prepare the data for better model results.
+
+As we only had three days to complete this project, this is the best we could do.
 
 
 ## Next Steps
@@ -99,7 +103,7 @@ First, we would look into what goes into determining `Pawpularity`. Another thin
 │    ├── test.csv
 │    └── train.csv
 ├── [images]
-│    └── kittens.png
+│    └── puppybanner.png
 ├── .gitignore
 ├── README.md
 ├── data_prep_notebook.ipynb
