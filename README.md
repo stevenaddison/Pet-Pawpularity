@@ -1,4 +1,4 @@
-![kittens](https://github.com/stevenaddison/Project-4/blob/main/images/kittens.png?raw=true)
+![puppies](https://github.com/stevenaddison/Project-4/blob/main/images/puppybanner.jpeg?raw=true)
 # Petfinder Malaysia Pawpularity Contest
 Authors: Steven Addison, Angela Kim, Aisha Baitemirova-Othman
 
