@@ -33,19 +33,18 @@ Some of the image augmentation techniques that we tried:
 - Gaussian Blurring
 - Reflection/Flip (Horizontal and Vertical)
 
-#### Grayscaled Images:
+#### ANN Model using Blurred Images:
 
-    Grayscaled Training Metrics:
-    Loss: 842.1859
-    Root Mean Square Error: 29.0204
+    Blurred ANN Training Metrics:
+    Loss: 481.546
+    Root Mean Square Error: 21.944
     Cross Validation Score: 
     ------
-    Grayscaled Test Metrics:
-    Loss: 7842.7947
-    Root Mean Square Error: 29.
+    Blurred ANN Test Metrics:
+    Loss: 505.014
+    Root Mean Square Error: 22.473
     
-    
-<img width="1177" alt="Screen Shot 2022-01-05 at 14 36 08" src="https://user-images.githubusercontent.com/92397144/148286041-24ee3897-bde4-4e26-9abf-6a0f40da8b4b.png">
+<img width="1095" alt="Screen Shot 2022-01-05 at 20 19 27" src="https://user-images.githubusercontent.com/92397144/148317759-4f7a6452-d9f9-4e56-8ee7-65f81bb90482.png">
 
 
 #### ANN Model using RGB Images:
