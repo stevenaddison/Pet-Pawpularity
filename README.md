@@ -18,7 +18,7 @@ The data comes from thousands of pet profiles on [Petfinder.my](https://www.petf
 ## Data Preparation & Analysis
 There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, `Action`, `Accessory`, `Group`, `Collage`, `Human`, `Occlusion`, `Info`, and `Blur` . The target variable is `Pawpularity` and ranges from 1-100. There are no null values and all features have a value of 0 (no) or 1 (yes).
 
-<img width="402" alt="Screen Shot 2022-01-05 at 21 12 43" src="https://user-images.githubusercontent.com/92397144/148322492-bc6252ac-80e5-4b51-a562-790accc1042e.png">
+![pawpularity distribution](https://github.com/stevenaddison/Project-4/blob/main/images/pawpularity_distribution.png?raw=true)
 
 
 
@@ -28,7 +28,7 @@ There are 9912 images and 12 features: `Subject Focus`, `Eyes`, `Face`, `Near`, 
 
     RMSE: 21.074920522735773
     
-<img width="1089" alt="Screen Shot 2022-01-05 at 15 55 50" src="https://user-images.githubusercontent.com/92397144/148295322-582f3bdd-7f85-4721-a7d8-d97e3bc0daab.png">
+![baseline](https://github.com/stevenaddison/Project-4/blob/main/images/baseline_model.png?raw=true)
  
    
 Some of the image augmentation techniques that we tried:
@@ -46,10 +46,10 @@ Some of the image augmentation techniques that we tried:
     Loss: 541.464
     RMSE: 23.269
     
-![image (2)](https://user-images.githubusercontent.com/92397144/148572598-4136ab99-7d42-4981-8b70-ebd5fc0b651a.png)
+![blur ann](https://github.com/stevenaddison/Project-4/blob/main/images/blur_ann.png?raw=true)
 
 
-#### ANN Model using RGB Images:
+#### Best ANN Model using RGB Images:
 
     Fifth ANN Training Metrics:
     Loss: 429.52
@@ -59,10 +59,10 @@ Some of the image augmentation techniques that we tried:
     Loss: 487.163
     RMSE: 22.072
     
-![image (2)](https://user-images.githubusercontent.com/92397144/148572899-7766e2d6-8d7c-414c-ac81-f7272047593d.png)
+![best ann](https://github.com/stevenaddison/Project-4/blob/main/images/best_ann.png?raw=true)
 
 
-#### CNN Model using RGB Images:
+#### Best CNN Model using RGB Images:
 
     First CNN Training Metrics:
     Loss: 425.604
@@ -72,7 +72,7 @@ Some of the image augmentation techniques that we tried:
     Loss: 459.965
     RMSE: 21.447
     
-![image (2)](https://user-images.githubusercontent.com/92397144/148573096-b77dd549-854a-4f67-82b9-1466b4fee131.png)
+![best cnn](https://github.com/stevenaddison/Project-4/blob/main/images/best_cnn.png?raw=true)
 
 
 ## Conclusions & Recommendations
