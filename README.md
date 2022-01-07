@@ -1,5 +1,5 @@
 ![puppies](https://github.com/stevenaddison/Project-4/blob/main/images/puppybanner.jpeg?raw=true)
-# Petfinder Malaysia Pawpularity Contest
+# Petfinder Pawpularity Prediction Using Neural Networks
 Authors: Steven Addison, Angela Kim, Aisha Baitemirova-Othman
 
 
