@@ -99,7 +99,6 @@ First, we would look into what goes into determining `Pawpularity`. Another thin
 │    ├── [test]
 │    ├── [train]
 │    ├── metadata.md
-│    ├── sample_submission.csv
 │    ├── test.csv
 │    └── train.csv
 ├── [images]
