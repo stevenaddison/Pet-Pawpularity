@@ -39,40 +39,40 @@ Some of the image augmentation techniques that we tried:
 #### ANN Model using Blurred Images:
 
     Blurred ANN Training Metrics:
-    Loss: 481.546
-    RMSE: 21.944
-    Cross Validation Score: 
+    Loss: 470.519
+    RMSE: 21.691 
     ------
     Blurred ANN Test Metrics:
-    Loss: 505.014
-    RMSE: 22.473
+    Loss: 541.464
+    RMSE: 23.269
     
-<img width="1095" alt="Screen Shot 2022-01-05 at 20 19 27" src="https://user-images.githubusercontent.com/92397144/148317759-4f7a6452-d9f9-4e56-8ee7-65f81bb90482.png">
+![image (2)](https://user-images.githubusercontent.com/92397144/148572598-4136ab99-7d42-4981-8b70-ebd5fc0b651a.png)
 
 
 #### ANN Model using RGB Images:
 
     Fifth ANN Training Metrics:
-    Loss: 418.549
-    RMSE: 20.458
+    Loss: 429.52
+    RMSE: 20.725 
     ------
     Fifth ANN Test Metrics:
-    Loss: 453.289
-    RMSE: 21.291
+    Loss: 487.163
+    RMSE: 22.072
     
-<img width="1091" alt="Screen Shot 2022-01-05 at 15 48 11" src="https://user-images.githubusercontent.com/92397144/148294474-37fa946d-af60-4bbc-94df-a14f6f636866.png">
+![image (2)](https://user-images.githubusercontent.com/92397144/148572899-7766e2d6-8d7c-414c-ac81-f7272047593d.png)
+
 
 #### CNN Model using RGB Images:
 
-    CNN Training Metrics:
-    Loss: 417.331
-    RMSE: 20.429
+    First CNN Training Metrics:
+    Loss: 425.604
+    RMSE: 20.63 
     ------
-    CNN Test Metrics:
-    Loss: 443.863
-    RMSE: 21.068
+    First CNN Test Metrics:
+    Loss: 459.965
+    RMSE: 21.447
     
-<img width="1087" alt="Screen Shot 2022-01-05 at 15 51 24" src="https://user-images.githubusercontent.com/92397144/148294889-fc018871-5e01-4d72-896f-a2da4ccd0cd0.png">
+![image (2)](https://user-images.githubusercontent.com/92397144/148573096-b77dd549-854a-4f67-82b9-1466b4fee131.png)
 
 
 ## Conclusions & Recommendations
