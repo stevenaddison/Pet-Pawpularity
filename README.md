@@ -106,7 +106,6 @@ First, we would look into what goes into determining `Pawpularity`. Another thin
 │    └── puppybanner.png
 ├── .gitignore
 ├── README.md
-├── data_prep_notebook.ipynb
-├── final_presentation.pdf
-└── modeling_notebook.ipynb
+├── presentation.pdf
+└── finalnotebook.ipynb
 ```
