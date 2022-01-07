@@ -103,6 +103,10 @@ First, we would look into what goes into determining `Pawpularity`. Another thin
 │    ├── test.csv
 │    └── train.csv
 ├── [images]
+│    └── bestann.png
+│    └── bestcnn.png
+│    └── blurann.png
+│    └── pawpularitydistribution.png
 │    └── puppybanner.png
 ├── .gitignore
 ├── README.md
